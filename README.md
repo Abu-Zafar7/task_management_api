@@ -105,8 +105,8 @@ python manage.py runserver
 {
     "id": 1,
     "name": "Implement auth system",
-    "description: "Add JWT authentication to API endpoints",
-    "created_at": "2025-03-25T14:28:00Z"  # auto added
+    "description": "Add JWT authentication to API endpoints",
+    "created_at": "2025-03-25T14:28:00Z", # auto added
     "status": "COMPLETED",
     "completed_at": "2025-03-25T14:30:00Z", # auto updated when status changes to "COMPLETED"
     "assigned_users": [1]
