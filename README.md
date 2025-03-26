@@ -91,6 +91,27 @@ python manage.py runserver
     "assigned_users_ids": [1]
 }
 ```
+### Mark task as completed
+
+#### **Request:**
+```json
+{
+    "status": "COMPLETED"
+}
+```
+
+#### **Response:**
+```json
+{
+    "id": 1,
+    "name": "Implement auth system",
+    "description: "Add JWT authentication to API endpoints",
+    "created_at": "2025-03-25T14:28:00Z"  # auto added
+    "status": "COMPLETED",
+    "completed_at": "2025-03-25T14:30:00Z", # auto updated when status changes to "COMPLETED"
+    "assigned_users": [1]
+}
+```
 
 ### 🔹 Assign a task to  user/users 
 **Endpoint:** `POST /api/tasks/<id>/assign_users/`
@@ -99,3 +120,12 @@ python manage.py runserver
     "assigned_users_ids": [1, 2, 3]
 }
 ```
+### 🔹 Retrieving a task of a specific user
+**Endpoint:** `GET /api/tasks/user/<user_id>/`
+
+## API Documentation
+#### **Access the interactive API documentation:**
+- Swagger UI: http://localhost:8000/swagger/
+- ReDoc: http://localhost:8000/redoc/
+
+** More features such as authentication and authorization can be implemented as per project requirements **
