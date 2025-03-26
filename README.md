@@ -59,8 +59,10 @@ python manage.py runserver
     "password": "securepassword",
     "mobile": "+1234567890"
 }
+```
 
-**Response:**
+####**Response:**
+```json
 {
     "id": 1,
     "username": "john_doe",
