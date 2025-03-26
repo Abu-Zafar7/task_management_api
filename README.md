@@ -26,7 +26,7 @@ cd task_management_api
 2. Create a virtual environment and activate it:
 ```bash
 python -m venv venv
-`venv\Scripts\activate`#On linux use venv/bin/activate
+`venv\Scripts\activate`# On linux or MacOs  use venv/bin/activate
 ```
 3. Install dependencies:
 ```bash
