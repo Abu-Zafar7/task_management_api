@@ -45,3 +45,26 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
+
+## 📌 API Endpoints 
+
+### 🔹 Create a User  
+**Endpoint:** `POST /api/users/`  
+
+#### **Request:**
+```json
+{
+    "username": "john_doe",
+    "email": "john@example.com",
+    "password": "securepassword",
+    "mobile": "+1234567890"
+}
+
+- Response:
+{
+    "id": 1,
+    "username": "john_doe",
+    "email": "john@example.com",
+    "mobile": "+1234567890"
+}
+```
