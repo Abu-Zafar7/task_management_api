@@ -18,7 +18,30 @@ Task Management API is a Django-based web application that provides robust task 
 - Admin dashboard for management
 
 ## Installation Setup
+1. Clone the repository
 ```bash
 git clone <repository-url>
-cd task_management_project
+cd task_management_api
+```
+2. Create a virtual environment and activate it:
+```bash
+python -m venv venv
+`venv\Scripts\activate`#On linux use venv/bin/activate
+```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+4. Run migrations:
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+5. Create a superuser:
+```bash
+python manage.py createsuperuser
+```
+6. Run the development server:
+```bash
+python manage.py runserver
 ```
