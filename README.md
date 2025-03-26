@@ -60,7 +60,7 @@ python manage.py runserver
     "mobile": "+1234567890"
 }
 
-- Response:
+**Response:**
 {
     "id": 1,
     "username": "john_doe",
