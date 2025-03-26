@@ -20,7 +20,7 @@ Task Management API is a Django-based web application that provides robust task 
 ## Installation Setup
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Abu-Zafar7/task_management_api.git
 cd task_management_api
 ```
 2. Create a virtual environment and activate it:
