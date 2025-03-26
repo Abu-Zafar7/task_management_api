@@ -11,8 +11,8 @@ Task Management API is a Django-based web application that provides robust task 
 - **CRUD operations for tasks**
   - Create tasks with detailed information
   - Assign tasks to multiple users
-  - Track task status (Pending, In Progress, Completed)
+  - Status tracking with automatic completion timestamps (Pending, In Progress, Completed)
   - Multiple task types (Personal, Work, Shopping, Other)
 - Assign tasks to multiple users.
-- Filter tasks by user.
+
 - Swagger and ReDoc API documentation.
