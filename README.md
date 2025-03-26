@@ -48,7 +48,7 @@ python manage.py runserver
 
 ## 📌 API Endpoints 
 
-
+## User Endpoints
 ### 🔹 Create a User  
 **Endpoint:** `POST /api/users/`  
 
@@ -75,5 +75,3 @@ python manage.py runserver
 ### 🔹 List all users 
 **Endpoint:** `GET /api/users/`
 
-### 🔹 Retrieve a User  
-**Endpoint:** `POST /api/users/<id>/`
