@@ -48,6 +48,7 @@ python manage.py runserver
 
 ## 📌 API Endpoints 
 
+
 ### 🔹 Create a User  
 **Endpoint:** `POST /api/users/`  
 
@@ -61,7 +62,7 @@ python manage.py runserver
 }
 ```
 
-####**Response:**
+#### **Response:**
 ```json
 {
     "id": 1,
@@ -70,3 +71,9 @@ python manage.py runserver
     "mobile": "+1234567890"
 }
 ```
+
+### 🔹 List all users 
+**Endpoint:** `GET /api/users/`
+
+### 🔹 Retrieve a User  
+**Endpoint:** `POST /api/users/<id>/`
