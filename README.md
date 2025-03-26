@@ -46,9 +46,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## 📌 API Endpoints 
-
-## User Endpoints
+## 📌 USER ENDPOINTS
 ### 🔹 Create a User  
 **Endpoint:** `POST /api/users/`  
 
@@ -75,3 +73,29 @@ python manage.py runserver
 ### 🔹 List all users 
 **Endpoint:** `GET /api/users/`
 
+### 🔹 Retrieve a User with details about task.
+**Endpoint:** `GET /api/users/<id>/`
+
+## 📌 TASK ENDPOINTS
+
+### 🔹 List all tasks 
+**Endpoint:** `GET /api/tasks/`
+
+### 🔹 Post a task
+**Endpoint:** `POST /api/tasks/`
+```json
+{
+    "name": "Implement auth system",
+    "description": "Add JWT authentication to API endpoints",
+    "task_type": "WORK",
+    "assigned_users_ids": [1]
+}
+```
+
+### 🔹 Assign a task to  user/users 
+**Endpoint:** `POST /api/tasks/<id>/assign_users/`
+```json
+{
+    "assigned_users_ids": [1, 2, 3]
+}
+```
